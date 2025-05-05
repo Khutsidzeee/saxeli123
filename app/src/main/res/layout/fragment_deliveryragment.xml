@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".delivery.Deliveryragment">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@mipmap/ic_map"
+        app:layout_constraintBottom_toTopOf="@+id/text66"
+        app:layout_constraintEnd_toEndOf="parxent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text66"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="10 Minutes left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/imageview87"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+        android:id="@+id/imageview87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imageview77"
+        android:src="@mipmap/ic_delviery"
+        />
+    <TextView
+        android:id="@+id/text87"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Delivered your order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text66"
+        app:layout_constraintBottom_toTopOf="@id/text88"
+        app:layout_constraintStart_toEndOf="@id/imageview87"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+        android:id="@+id/imageview77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@mipmap/ic_cf2"
+        />
+    <TextView
+
+        android:id="@+id/text88"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Brooklyn Simmons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text87"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageview77"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
